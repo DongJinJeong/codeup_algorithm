@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Q_1015 {
+public class Q_1022 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        float x = scanner.nextFloat();
+        String data = scanner.nextLine();
         scanner.close();
 
-        System.out.printf("%.2f", x);
+        System.out.println(data);
     }
 }

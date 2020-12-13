@@ -5,6 +5,8 @@ public class Q_1014 {
         Scanner scanner = new Scanner(System.in);
         char x = scanner.next().charAt(0);
         char y = scanner.next().charAt(0);
+        scanner.close();
+
         System.out.printf("%c %c", y, x);
     }
 }
