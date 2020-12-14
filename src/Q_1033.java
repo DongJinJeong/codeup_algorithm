@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Q_1030 {
+public class Q_1033 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Long x = scanner.nextLong();
+        int x = scanner.nextInt();
         scanner.close();
 
-        System.out.printf("%d", x);
+        System.out.printf("%X", x);
     }
 }
